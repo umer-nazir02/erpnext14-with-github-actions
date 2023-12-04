@@ -18,7 +18,6 @@ ENV benchPath=bench-repo \
 
 RUN apt-get update && apt-get upgrade -y && apt-get install nano net-tools screen sudo -y
 
-
 ## STEP-1: Install git ##
 RUN apt-get install -y git
 
